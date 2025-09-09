@@ -127,6 +127,10 @@
             const isFlipped = ref(false);
             const showStats = ref(false);
             const showTestPanel = ref(true);
+
+            // 艾宾浩斯复习间隔（单位：小时）
+            // 20分钟, 1小时, 8小时, 1天, 3天, 7天
+            const EBBINGHAUS_SCHEDULE = [1/3, 1, 8, 24, 72, 168];
             
             // 从localStorage加载进度
             const loadProgress = () => {
@@ -157,9 +161,10 @@
                         level: 'new',
                         correctCount: 0,
                         incorrectCount: 0,
-                        lastReviewed: new Date().toISOString(),
-                        nextReview: new Date().toISOString(),
-                        reviewInterval: 1,
+                        lastReviewed: null,
+                        nextReview: null,
+                        reviewInterval: EBBINGHAUS_SCHEDULE[0],
+                        reviewStep: 0,
                         accuracy: 0
                     };
                 }
@@ -189,6 +194,17 @@
                     
                     // 更新掌握程度
                     updateMasteryLevel(wordProgress, isCorrect);
+                    
+                    // 基于艾宾浩斯间隔更新复习进度
+                    if (typeof wordProgress.reviewStep !== 'number') {
+                        wordProgress.reviewStep = 0;
+                    }
+                    if (isCorrect) {
+                        wordProgress.reviewStep = Math.min(wordProgress.reviewStep + 1, EBBINGHAUS_SCHEDULE.length - 1);
+                    } else {
+                        wordProgress.reviewStep = Math.max(wordProgress.reviewStep - 1, 0);
+                    }
+                    wordProgress.reviewInterval = EBBINGHAUS_SCHEDULE[wordProgress.reviewStep];
                     
                     // 计算下次复习时间
                     wordProgress.nextReview = calculateNextReview(wordProgress).toISOString();
@@ -265,7 +281,23 @@
             // 获取当前单词
             const currentWord = computed(() => {
                 if (currentWords.value.length === 0) return null;
-                return currentWords.value[currentWordIndex.value];
+                // 防止索引越界导致 undefined 而不显示
+                const idx = Math.min(currentWordIndex.value, Math.max(currentWords.value.length - 1, 0));
+                return currentWords.value[idx];
+            });
+
+            // 当分类变化时，重置索引与翻面状态
+            watch(currentCategory, () => {
+                currentWordIndex.value = 0;
+                isFlipped.value = false;
+            });
+
+            // 当当前词列表变化时，若索引越界则回到0
+            watch(currentWords, (newWords) => {
+                if (!newWords) return;
+                if (currentWordIndex.value >= newWords.length) {
+                    currentWordIndex.value = 0;
+                }
             });
             
             // 获取学习统计
@@ -282,19 +314,26 @@
                 };
                 
                 Object.values(progress.value).forEach(p => {
-                    stats[p.level]++;
-                    
-                    // 计算今日学习
-                    const lastReview = new Date(p.lastReviewed);
-                    const today = new Date();
-                    if (lastReview.toDateString() === today.toDateString()) {
-                        stats.todayStudied++;
+                    if (p && p.level && Object.prototype.hasOwnProperty.call(stats, p.level)) {
+                        stats[p.level]++;
                     }
                     
-                    // 计算需要复习
-                    const nextReview = new Date(p.nextReview);
-                    if (nextReview <= new Date()) {
-                        stats.reviewCount++;
+                    // 计算今日学习（仅统计有过尝试的词）
+                    const attempts = (p?.correctCount || 0) + (p?.incorrectCount || 0);
+                    if (attempts > 0 && p?.lastReviewed) {
+                        const lastReview = new Date(p.lastReviewed);
+                        const today = new Date();
+                        if (!isNaN(lastReview.getTime()) && lastReview.toDateString() === today.toDateString()) {
+                            stats.todayStudied++;
+                        }
+                    }
+                    
+                    // 计算需要复习（仅当 nextReview 存在且有效）
+                    if (p?.nextReview) {
+                        const nextReview = new Date(p.nextReview);
+                        if (!isNaN(nextReview.getTime()) && nextReview <= new Date()) {
+                            stats.reviewCount++;
+                        }
                     }
                 });
                 
@@ -310,17 +349,28 @@
             
             // 检查是否需要复习
             const needsReview = (wordProgress) => {
-                if (!wordProgress) return false;
+                if (!wordProgress || !wordProgress.nextReview) return false;
                 const nextReviewDate = new Date(wordProgress.nextReview);
+                if (isNaN(nextReviewDate.getTime())) return false;
                 return nextReviewDate <= new Date();
             };
 
             // 获取需要复习的单词
             const wordsForReview = computed(() => {
-                return vocabulary.value.filter(word => {
-                    const wordProgress = progress.value[word.id];
-                    return needsReview(wordProgress);
-                });
+                const now = new Date();
+                return vocabulary.value
+                    .filter(word => {
+                        const wordProgress = progress.value[word.id];
+                        return needsReview(wordProgress);
+                    })
+                    .sort((a, b) => {
+                        const pa = progress.value[a.id];
+                        const pb = progress.value[b.id];
+                        const overdueA = now - new Date(pa.nextReview);
+                        const overdueB = now - new Date(pb.nextReview);
+                        // 逾期越久，排位越靠前
+                        return overdueB - overdueA;
+                    });
             });
             
             // 下一个单词
@@ -356,6 +406,8 @@
             const resetProgress = () => {
                 if (confirm('确定要重置所有学习进度吗？此操作不可撤销。')) {
                     progress.value = {};
+                    // 重置后立即为所有单词重新初始化默认进度
+                    (vocabulary.value || []).forEach(word => initializeProgress(word.id));
                     saveProgress();
                     showFeedback('进度已重置', true);
                 }
