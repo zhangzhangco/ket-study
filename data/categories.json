@@ -1,0 +1,3704 @@
+{
+  "Natural World and Weather": [
+    {
+      "id": "word_1",
+      "english": "countryside",
+      "ipa": "/ˈkʌn.tri.saɪd/",
+      "chinese": "乡下/农村",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_2",
+      "english": "tree",
+      "ipa": "/triː/",
+      "chinese": "树",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_3",
+      "english": "east",
+      "ipa": "/iːst/",
+      "chinese": "东方",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_4",
+      "english": "south",
+      "ipa": "/saʊθ/",
+      "chinese": "南方",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_5",
+      "english": "river",
+      "ipa": "/ˈrɪv.ər/",
+      "chinese": "河",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_6",
+      "english": "lake",
+      "ipa": "/leɪk/",
+      "chinese": "湖",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_7",
+      "english": "space",
+      "ipa": "/speɪs/",
+      "chinese": "场地/空间/太空",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_8",
+      "english": "warm",
+      "ipa": "/wɔːm/",
+      "chinese": "温暖的",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_9",
+      "english": "spring",
+      "ipa": "/sprɪŋ/",
+      "chinese": "春天",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_10",
+      "english": "water",
+      "ipa": "/ˈwɔː.tər/",
+      "chinese": "水",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_11",
+      "english": "air",
+      "ipa": "/eər/",
+      "chinese": "空气",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_12",
+      "english": "moon",
+      "ipa": "/muːn/",
+      "chinese": "月亮",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_13",
+      "english": "beach",
+      "ipa": "/biːtʃ/",
+      "chinese": "海滩",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_14",
+      "english": "wind",
+      "ipa": "/wɪnd/",
+      "chinese": "风",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_15",
+      "english": "cloud",
+      "ipa": "/klaʊd/",
+      "chinese": "云",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_16",
+      "english": "weather",
+      "ipa": "/ˈweð.ər/",
+      "chinese": "天气",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_17",
+      "english": "field",
+      "ipa": "/fiːld/",
+      "chinese": "田地/场地",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_18",
+      "english": "mountain",
+      "ipa": "/ˈmaʊn.tɪn/",
+      "chinese": "山脉",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_19",
+      "english": "grass",
+      "ipa": "/ɡrɑːs/",
+      "chinese": "草",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_20",
+      "english": "west",
+      "ipa": "/west/",
+      "chinese": "西方",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_21",
+      "english": "fire",
+      "ipa": "/ˈfaɪər/",
+      "chinese": "火/起火",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_22",
+      "english": "north",
+      "ipa": "/nɔːθ/",
+      "chinese": "北方",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_23",
+      "english": "star",
+      "ipa": "/stɑːr/",
+      "chinese": "星星",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_24",
+      "english": "windy",
+      "ipa": "/windy/",
+      "chinese": "有风的",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_25",
+      "english": "grow",
+      "ipa": "/ɡrəʊ/",
+      "chinese": "生长",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_26",
+      "english": "winter",
+      "ipa": "/ˈwɪn.tər/",
+      "chinese": "冬天",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_27",
+      "english": "flower",
+      "ipa": "/ˈflaʊ.ər/",
+      "chinese": "花",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_28",
+      "english": "wet",
+      "ipa": "/wet/",
+      "chinese": "湿的",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_29",
+      "english": "storm",
+      "ipa": "/stɔːm/",
+      "chinese": "暴风雨",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_30",
+      "english": "outdoor",
+      "ipa": "/outdoor/",
+      "chinese": "户外的",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_31",
+      "english": "hill",
+      "ipa": "/hɪl/",
+      "chinese": "小山",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_32",
+      "english": "wood",
+      "ipa": "/wood/",
+      "chinese": "木;木材",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_33",
+      "english": "fog",
+      "ipa": "/fɒɡ/",
+      "chinese": "雾",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_34",
+      "english": "cold",
+      "ipa": "/kəʊld/",
+      "chinese": "冷的",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_35",
+      "english": "summer",
+      "ipa": "/ˈsʌm.ər/",
+      "chinese": "夏天",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_36",
+      "english": "plant",
+      "ipa": "/plɑːnt/",
+      "chinese": "植物/种植",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_37",
+      "english": "hot",
+      "ipa": "/hɒt/",
+      "chinese": "热的",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_38",
+      "english": "wool",
+      "ipa": "/wool/",
+      "chinese": "羊毛",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_39",
+      "english": "foggy",
+      "ipa": "/foggy/",
+      "chinese": "雾的",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_40",
+      "english": "country",
+      "ipa": "/country/",
+      "chinese": "国家/农村,乡下",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_41",
+      "english": "sun",
+      "ipa": "/sʌn/",
+      "chinese": "太阳",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_42",
+      "english": "rain",
+      "ipa": "/reɪn/",
+      "chinese": "雨/下雨",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_43",
+      "english": "sea",
+      "ipa": "/siː/",
+      "chinese": "海",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_44",
+      "english": "world",
+      "ipa": "/wɜːld/",
+      "chinese": "世界",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_45",
+      "english": "forest",
+      "ipa": "/ˈfɒr.ɪst/",
+      "chinese": "森林",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_46",
+      "english": "sunny",
+      "ipa": "/sunny/",
+      "chinese": "晴朗的",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_47",
+      "english": "sky",
+      "ipa": "/skaɪ/",
+      "chinese": "天空",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_48",
+      "english": "ice",
+      "ipa": "/aɪs/",
+      "chinese": "冰",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_49",
+      "english": "snow",
+      "ipa": "/snəʊ/",
+      "chinese": "雪",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_50",
+      "english": "island",
+      "ipa": "/ˈaɪ.lənd/",
+      "chinese": "岛",
+      "category": "Natural World and Weather"
+    },
+    {
+      "id": "word_51",
+      "english": "thunderstorm",
+      "ipa": "/thunderstorm/",
+      "chinese": "雷雨",
+      "category": "Natural World and Weather"
+    }
+  ],
+  "Colours": [
+    {
+      "id": "word_52",
+      "english": "light/dark",
+      "ipa": "/light/dark/",
+      "chinese": "浅色/深色",
+      "category": "Colours"
+    },
+    {
+      "id": "word_53",
+      "english": "green",
+      "ipa": "/ɡriːn/",
+      "chinese": "绿色",
+      "category": "Colours"
+    },
+    {
+      "id": "word_54",
+      "english": "purple",
+      "ipa": "/ˈpɜː.pəl/",
+      "chinese": "紫色",
+      "category": "Colours"
+    },
+    {
+      "id": "word_55",
+      "english": "black",
+      "ipa": "/blæk/",
+      "chinese": "黑色",
+      "category": "Colours"
+    },
+    {
+      "id": "word_56",
+      "english": "blue",
+      "ipa": "/bluː/",
+      "chinese": "蓝色",
+      "category": "Colours"
+    },
+    {
+      "id": "word_57",
+      "english": "brown",
+      "ipa": "/braʊn/",
+      "chinese": "棕色",
+      "category": "Colours"
+    },
+    {
+      "id": "word_58",
+      "english": "grey",
+      "ipa": "/ɡreɪ/",
+      "chinese": "灰色",
+      "category": "Colours"
+    },
+    {
+      "id": "word_59",
+      "english": "orange",
+      "ipa": "/ˈɒr.ɪndʒ/",
+      "chinese": "橘色",
+      "category": "Colours"
+    },
+    {
+      "id": "word_60",
+      "english": "pink",
+      "ipa": "/pɪŋk/",
+      "chinese": "粉红色",
+      "category": "Colours"
+    },
+    {
+      "id": "word_61",
+      "english": "red",
+      "ipa": "/red/",
+      "chinese": "红色",
+      "category": "Colours"
+    },
+    {
+      "id": "word_62",
+      "english": "white",
+      "ipa": "/waɪt/",
+      "chinese": "白色",
+      "category": "Colours"
+    },
+    {
+      "id": "word_63",
+      "english": "yellow",
+      "ipa": "/ˈjel.əʊ/",
+      "chinese": "黄色",
+      "category": "Colours"
+    }
+  ],
+  "Travel and Transport": [
+    {
+      "id": "word_64",
+      "english": "(aero)plane",
+      "ipa": "/(aero)plane/",
+      "chinese": "飞机",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_65",
+      "english": "airport",
+      "ipa": "/ˈeə.pɔːt/",
+      "chinese": "机场",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_66",
+      "english": "ambulance",
+      "ipa": "/ˈæm.bjə.ləns/",
+      "chinese": "救护车",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_67",
+      "english": "brake",
+      "ipa": "/brake/",
+      "chinese": "刹车",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_68",
+      "english": "bridge",
+      "ipa": "/brɪdʒ/",
+      "chinese": "桥",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_69",
+      "english": "arrive",
+      "ipa": "/əˈraɪv/",
+      "chinese": "到达",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_70",
+      "english": "flight",
+      "ipa": "/flaɪt/",
+      "chinese": "飞行/航班",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_71",
+      "english": "garage",
+      "ipa": "/ˈɡær.ɑːʒ/",
+      "chinese": "汽车修理场/车库",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_72",
+      "english": "helicopter",
+      "ipa": "/ˈhel.ɪ.kɒp.tər/",
+      "chinese": "直升飞机",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_73",
+      "english": "journey",
+      "ipa": "/ˈdʒɜː.ni/",
+      "chinese": "旅行、旅程",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_74",
+      "english": "leave",
+      "ipa": "/liːv/",
+      "chinese": "离开",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_75",
+      "english": "left",
+      "ipa": "/left/",
+      "chinese": "左边/左边的",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_76",
+      "english": "passport",
+      "ipa": "/ˈpɑːs.pɔːt/",
+      "chinese": "护照",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_77",
+      "english": "petrol",
+      "ipa": "/ˈpet.rəl/",
+      "chinese": "汽油",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_78",
+      "english": "petrol station",
+      "ipa": "/ˈpet.rəl/",
+      "chinese": "加油站",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_79",
+      "english": "pilot",
+      "ipa": "/ˈpaɪ.lət/",
+      "chinese": "飞行员",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_80",
+      "english": "plane",
+      "ipa": "/pleɪn/",
+      "chinese": "飞机",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_81",
+      "english": "platform",
+      "ipa": "/ˈplæt.fɔːm/",
+      "chinese": "站台",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_82",
+      "english": "police car",
+      "ipa": "/police car/",
+      "chinese": "警车",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_83",
+      "english": "problem",
+      "ipa": "/problem/",
+      "chinese": "问题",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_84",
+      "english": "suitcase",
+      "ipa": "/suitcase/",
+      "chinese": "旅行箱",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_85",
+      "english": "ticket",
+      "ipa": "/ˈtɪk.ɪt/",
+      "chinese": "票",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_86",
+      "english": "tour",
+      "ipa": "/tʊər/",
+      "chinese": "观光/旅游",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_87",
+      "english": "tour guide",
+      "ipa": "/tʊər/",
+      "chinese": "导游",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_88",
+      "english": "tourist",
+      "ipa": "/ˈtʊə.rɪst/",
+      "chinese": "游客",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_89",
+      "english": "traffic",
+      "ipa": "/ˈtræf.ɪk/",
+      "chinese": "交通",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_90",
+      "english": "canal",
+      "ipa": "/canal/",
+      "chinese": "运河/水道",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_91",
+      "english": "coach",
+      "ipa": "/kəʊtʃ/",
+      "chinese": "长途客车",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_92",
+      "english": "crossroads",
+      "ipa": "/crossroads/",
+      "chinese": "十字路口",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_93",
+      "english": "delay",
+      "ipa": "/delay/",
+      "chinese": "延迟",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_94",
+      "english": "driving licence",
+      "ipa": "/driving licence/",
+      "chinese": "驾驶执照",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_95",
+      "english": "engine",
+      "ipa": "/ˈen.dʒɪn/",
+      "chinese": "发动机",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_96",
+      "english": "engineer",
+      "ipa": "/ˌen.dʒɪˈnɪər/",
+      "chinese": "工程师",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_97",
+      "english": "lorry",
+      "ipa": "/ˈlɒr.i/",
+      "chinese": "卡车",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_98",
+      "english": "luggage",
+      "ipa": "/ˈlʌɡ.ɪdʒ/",
+      "chinese": "行李",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_99",
+      "english": "mechanic",
+      "ipa": "/məˈkæn.ɪk/",
+      "chinese": "机械师",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_100",
+      "english": "mile",
+      "ipa": "/maɪl/",
+      "chinese": "英里",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_101",
+      "english": "mirror",
+      "ipa": "/ˈmɪr.ər/",
+      "chinese": "镜子",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_102",
+      "english": "motorway",
+      "ipa": "/ˈməʊ.tə.weɪ/",
+      "chinese": "高速公路",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_103",
+      "english": "park",
+      "ipa": "/pɑːk/",
+      "chinese": "停车",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_104",
+      "english": "passenger",
+      "ipa": "/ˈpæs.ɪn.dʒər/",
+      "chinese": "乘客",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_105",
+      "english": "railway",
+      "ipa": "/ˈreɪl.weɪ/",
+      "chinese": "铁路",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_106",
+      "english": "roundabout",
+      "ipa": "/roundabout/",
+      "chinese": "道路交叉处的环形路",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_107",
+      "english": "traffic lights",
+      "ipa": "/ˈtræf.ɪk/",
+      "chinese": "交通灯",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_108",
+      "english": "travel agency",
+      "ipa": "/travel agency/",
+      "chinese": "旅行社",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_109",
+      "english": "underground",
+      "ipa": "/underground/",
+      "chinese": "地下的",
+      "category": "Travel and Transport"
+    },
+    {
+      "id": "word_110",
+      "english": "wheel",
+      "ipa": "/wiːl/",
+      "chinese": "车轮",
+      "category": "Travel and Transport"
+    }
+  ],
+  "Buildings and Places": [
+    {
+      "id": "word_111",
+      "english": "apartment",
+      "ipa": "/əˈpɑːt.mənt/",
+      "chinese": "公寓",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_112",
+      "english": "bank",
+      "ipa": "/bæŋk/",
+      "chinese": "银行,堤岸",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_113",
+      "english": "bookshop",
+      "ipa": "/ˈbʊk.ʃɒp/",
+      "chinese": "书店",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_114",
+      "english": "building",
+      "ipa": "/ˈbɪl.dɪŋ/",
+      "chinese": "建筑物",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_115",
+      "english": "department store",
+      "ipa": "/department store/",
+      "chinese": "百货公司",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_116",
+      "english": "disco",
+      "ipa": "/disco/",
+      "chinese": "迪斯科舞",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_117",
+      "english": "entrance",
+      "ipa": "/entrance/",
+      "chinese": "入口",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_118",
+      "english": "exhibition",
+      "ipa": "/exhibition/",
+      "chinese": "展览/展览会",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_119",
+      "english": "exit",
+      "ipa": "/exit/",
+      "chinese": "出口",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_120",
+      "english": "factory",
+      "ipa": "/factory/",
+      "chinese": "工厂",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_121",
+      "english": "farm",
+      "ipa": "/farm/",
+      "chinese": "农场,农田",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_122",
+      "english": "bus station",
+      "ipa": "/bus station/",
+      "chinese": "公共汽车站",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_123",
+      "english": "café",
+      "ipa": "/café/",
+      "chinese": "咖啡馆",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_124",
+      "english": "campsite",
+      "ipa": "/campsite/",
+      "chinese": "营地",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_125",
+      "english": "castle",
+      "ipa": "/castle/",
+      "chinese": "城堡",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_126",
+      "english": "flat",
+      "ipa": "/flat/",
+      "chinese": "公寓/平坦的",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_127",
+      "english": "cathedral",
+      "ipa": "/cathedral/",
+      "chinese": "大教堂",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_128",
+      "english": "centre",
+      "ipa": "/centre/",
+      "chinese": "中心",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_129",
+      "english": "hospital",
+      "ipa": "/ˈhɒs.pɪ.təl/",
+      "chinese": "医院",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_130",
+      "english": "church",
+      "ipa": "/church/",
+      "chinese": "教堂",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_131",
+      "english": "hotel",
+      "ipa": "/həʊˈtel/",
+      "chinese": "宾馆",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_132",
+      "english": "cinema",
+      "ipa": "/cinema/",
+      "chinese": "电影院",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_133",
+      "english": "library",
+      "ipa": "/ˈlaɪ.brər.i/",
+      "chinese": "图书馆",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_134",
+      "english": "club",
+      "ipa": "/club/",
+      "chinese": "俱乐部",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_135",
+      "english": "city",
+      "ipa": "/city/",
+      "chinese": "城市",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_136",
+      "english": "college",
+      "ipa": "/college/",
+      "chinese": "学院",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_137",
+      "english": "corner",
+      "ipa": "/corner/",
+      "chinese": "角落",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_138",
+      "english": "guesthouse",
+      "ipa": "/guesthouse/",
+      "chinese": "宾馆,旅社",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_139",
+      "english": "lift",
+      "ipa": "/lift/",
+      "chinese": "电梯,举起",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_140",
+      "english": "market",
+      "ipa": "/market/",
+      "chinese": "市场",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_141",
+      "english": "museum",
+      "ipa": "/mjuːˈziː.əm/",
+      "chinese": "博物馆",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_142",
+      "english": "newsagent",
+      "ipa": "/newsagent/",
+      "chinese": "报刊经销商",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_143",
+      "english": "post office",
+      "ipa": "/post office/",
+      "chinese": "邮局",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_144",
+      "english": "restaurant",
+      "ipa": "/ˈres.trɒnt/",
+      "chinese": "饭店",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_145",
+      "english": "ruin",
+      "ipa": "/ruin/",
+      "chinese": "废墟/毁灭",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_146",
+      "english": "sports centre",
+      "ipa": "/sports centre/",
+      "chinese": "体育中心",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_147",
+      "english": "square",
+      "ipa": "/square/",
+      "chinese": "正方形",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_148",
+      "english": "stadium",
+      "ipa": "/stadium/",
+      "chinese": "体育场",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_149",
+      "english": "supermarket",
+      "ipa": "/ˈsuː.pəˌmɑː.kɪt/",
+      "chinese": "超级市场",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_150",
+      "english": "theatre",
+      "ipa": "/ˈθɪə.tər/",
+      "chinese": "剧场,戏院",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_151",
+      "english": "tourist information centre",
+      "ipa": "/ˈtʊə.rɪst/",
+      "chinese": "旅游信息中心",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_152",
+      "english": "travel agency",
+      "ipa": "/travel agency/",
+      "chinese": "旅行社",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_153",
+      "english": "university",
+      "ipa": "/ˌjuː.nɪˈvɜː.sə.ti/",
+      "chinese": "大学",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_154",
+      "english": "village",
+      "ipa": "/village/",
+      "chinese": "村庄",
+      "category": "Buildings and Places"
+    },
+    {
+      "id": "word_155",
+      "english": "zoo",
+      "ipa": "/zuː/",
+      "chinese": "动物园",
+      "category": "Buildings and Places"
+    }
+  ],
+  "Food and Drink": [
+    {
+      "id": "word_156",
+      "english": "barbecue",
+      "ipa": "/barbecue/",
+      "chinese": "烤肉/烤",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_157",
+      "english": "biscuit",
+      "ipa": "/biscuit/",
+      "chinese": "饼干",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_158",
+      "english": "chips",
+      "ipa": "/chips/",
+      "chinese": "炸土豆条(片)",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_159",
+      "english": "a bit of cake",
+      "ipa": "/a bit of cake/",
+      "chinese": "一小块蛋糕",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_160",
+      "english": "boil",
+      "ipa": "/boil/",
+      "chinese": "煮沸",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_161",
+      "english": "bottle",
+      "ipa": "/bottle/",
+      "chinese": "瓶子",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_162",
+      "english": "chocolate",
+      "ipa": "/ˈtʃɒk.lət/",
+      "chinese": "巧克力",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_163",
+      "english": "coffee",
+      "ipa": "/ˈkɒf.i/",
+      "chinese": "咖啡",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_164",
+      "english": "cook",
+      "ipa": "/cook/",
+      "chinese": "厨师",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_165",
+      "english": "cooker",
+      "ipa": "/cooker/",
+      "chinese": "炊具",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_166",
+      "english": "cream",
+      "ipa": "/cream/",
+      "chinese": "奶油",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_167",
+      "english": "dinner",
+      "ipa": "/ˈdɪn.ər/",
+      "chinese": "晚餐",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_168",
+      "english": "hungry",
+      "ipa": "/hungry/",
+      "chinese": "饥饿的",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_169",
+      "english": "ice cream",
+      "ipa": "/ˌaɪs ˈkriːm/",
+      "chinese": "冰淇淋",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_170",
+      "english": "jam",
+      "ipa": "/jam/",
+      "chinese": "果酱",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_171",
+      "english": "juice",
+      "ipa": "/dʒuːs/",
+      "chinese": "果汁",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_172",
+      "english": "kitchen",
+      "ipa": "/ˈkɪtʃ.ɪn/",
+      "chinese": "厨房",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_173",
+      "english": "roast",
+      "ipa": "/roast/",
+      "chinese": "烤,烘焙",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_174",
+      "english": "salad",
+      "ipa": "/ˈsæl.əd/",
+      "chinese": "沙拉,凉菜",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_175",
+      "english": "salt",
+      "ipa": "/salt/",
+      "chinese": "盐",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_176",
+      "english": "bowl",
+      "ipa": "/bowl/",
+      "chinese": "碗",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_177",
+      "english": "breakfast",
+      "ipa": "/ˈbrek.fəst/",
+      "chinese": "早餐",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_178",
+      "english": "burger",
+      "ipa": "/burger/",
+      "chinese": "汉堡包",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_179",
+      "english": "burn",
+      "ipa": "/burn/",
+      "chinese": "燃烧",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_180",
+      "english": "butter",
+      "ipa": "/ˈbʌt.ər/",
+      "chinese": "黄油",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_181",
+      "english": "carrot",
+      "ipa": "/carrot/",
+      "chinese": "胡萝卜",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_182",
+      "english": "cheese",
+      "ipa": "/tʃiːz/",
+      "chinese": "乳酪/奶酪",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_183",
+      "english": "chicken",
+      "ipa": "/ˈtʃɪk.ɪn/",
+      "chinese": "鸡肉",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_184",
+      "english": "dish",
+      "ipa": "/dish/",
+      "chinese": "盘子/一道菜",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_185",
+      "english": "drink",
+      "ipa": "/drink/",
+      "chinese": "饮料",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_186",
+      "english": "fork",
+      "ipa": "/fork/",
+      "chinese": "叉",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_187",
+      "english": "fridge",
+      "ipa": "/fridge/",
+      "chinese": "电冰箱",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_188",
+      "english": "fried",
+      "ipa": "/fried/",
+      "chinese": "油炸的",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_189",
+      "english": "fruit",
+      "ipa": "/fruːt/",
+      "chinese": "水果",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_190",
+      "english": "grape",
+      "ipa": "/grape/",
+      "chinese": "葡萄",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_191",
+      "english": "knife",
+      "ipa": "/knife/",
+      "chinese": "刀",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_192",
+      "english": "lemon",
+      "ipa": "/ˈlem.ən/",
+      "chinese": "柠檬",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_193",
+      "english": "steak",
+      "ipa": "/steak/",
+      "chinese": "牛排",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_194",
+      "english": "a piece of cake",
+      "ipa": "/a piece of cake/",
+      "chinese": "一块蛋糕",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_195",
+      "english": "sugar",
+      "ipa": "/ˈʃʊɡ.ər/",
+      "chinese": "糖",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_196",
+      "english": "pizza",
+      "ipa": "/pizza/",
+      "chinese": "比萨饼",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_197",
+      "english": "sweet",
+      "ipa": "/sweet/",
+      "chinese": "甜的",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_198",
+      "english": "plate",
+      "ipa": "/plate/",
+      "chinese": "碟,盘",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_199",
+      "english": "potato",
+      "ipa": "/pəˈteɪ.təʊ/",
+      "chinese": "土豆",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_200",
+      "english": "thirsty",
+      "ipa": "/thirsty/",
+      "chinese": "口渴的",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_201",
+      "english": "tomato",
+      "ipa": "/təˈmɑː.təʊ/",
+      "chinese": "西红柿,番茄",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_202",
+      "english": "vegetable",
+      "ipa": "/vegetable/",
+      "chinese": "蔬菜",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_203",
+      "english": "waiter",
+      "ipa": "/waiter/",
+      "chinese": "服务员",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_204",
+      "english": "waitress",
+      "ipa": "/waitress/",
+      "chinese": "女服务员",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_205",
+      "english": "onion",
+      "ipa": "/onion/",
+      "chinese": "洋葱",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_206",
+      "english": "meat",
+      "ipa": "/miːt/",
+      "chinese": "肉",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_207",
+      "english": "pepper",
+      "ipa": "/pepper/",
+      "chinese": "胡椒",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_208",
+      "english": "lemonade",
+      "ipa": "/lemonade/",
+      "chinese": "柠檬水",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_209",
+      "english": "main course",
+      "ipa": "/main course/",
+      "chinese": "主菜",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_210",
+      "english": "menu",
+      "ipa": "/menu/",
+      "chinese": "菜单",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_211",
+      "english": "mineral water",
+      "ipa": "/mineral water/",
+      "chinese": "矿泉水",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_212",
+      "english": "pasta",
+      "ipa": "/pasta/",
+      "chinese": "意大利面",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_213",
+      "english": "picnic",
+      "ipa": "/picnic/",
+      "chinese": "野餐",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_214",
+      "english": "sandwich",
+      "ipa": "/ˈsæn.wɪdʒ/",
+      "chinese": "三明治",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_215",
+      "english": "slice",
+      "ipa": "/slice/",
+      "chinese": "薄的切片",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_216",
+      "english": "snack",
+      "ipa": "/snack/",
+      "chinese": "小吃,零食",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_217",
+      "english": "soup",
+      "ipa": "/soup/",
+      "chinese": "汤",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_218",
+      "english": "cake",
+      "ipa": "/cake/",
+      "chinese": "蛋糕",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_219",
+      "english": "omelette /omelet",
+      "ipa": "/omelette /omelet/",
+      "chinese": "煎蛋",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_220",
+      "english": "meal",
+      "ipa": "/meal/",
+      "chinese": "一餐,一顿饭",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_221",
+      "english": "grill",
+      "ipa": "/grill/",
+      "chinese": "烧烤架",
+      "category": "Food and Drink"
+    },
+    {
+      "id": "word_222",
+      "english": "grilled",
+      "ipa": "/grilled/",
+      "chinese": "烤的",
+      "category": "Food and Drink"
+    }
+  ],
+  "Time": [
+    {
+      "id": "word_223",
+      "english": "a.m./p.m.",
+      "ipa": "/a.m./p.m./",
+      "chinese": "上午/下午",
+      "category": "Time"
+    },
+    {
+      "id": "word_224",
+      "english": "daily",
+      "ipa": "/daily/",
+      "chinese": "每日的",
+      "category": "Time"
+    },
+    {
+      "id": "word_225",
+      "english": "noon",
+      "ipa": "/noon/",
+      "chinese": "中午",
+      "category": "Time"
+    },
+    {
+      "id": "word_226",
+      "english": "appointment",
+      "ipa": "/appointment/",
+      "chinese": "约会,预约",
+      "category": "Time"
+    },
+    {
+      "id": "word_227",
+      "english": "holidays",
+      "ipa": "/holidays/",
+      "chinese": "节假日",
+      "category": "Time"
+    },
+    {
+      "id": "word_228",
+      "english": "spring",
+      "ipa": "/sprɪŋ/",
+      "chinese": "春天",
+      "category": "Time"
+    },
+    {
+      "id": "word_229",
+      "english": "autumn",
+      "ipa": "/autumn/",
+      "chinese": "秋天",
+      "category": "Time"
+    },
+    {
+      "id": "word_230",
+      "english": "January-December",
+      "ipa": "/January-December/",
+      "chinese": "1月-12月",
+      "category": "Time"
+    },
+    {
+      "id": "word_231",
+      "english": "summer",
+      "ipa": "/ˈsʌm.ər/",
+      "chinese": "夏天",
+      "category": "Time"
+    },
+    {
+      "id": "word_232",
+      "english": "birthday",
+      "ipa": "/birthday/",
+      "chinese": "生日",
+      "category": "Time"
+    },
+    {
+      "id": "word_233",
+      "english": "midnight",
+      "ipa": "/midnight/",
+      "chinese": "午夜",
+      "category": "Time"
+    },
+    {
+      "id": "word_234",
+      "english": "weekend",
+      "ipa": "/weekend/",
+      "chinese": "周末",
+      "category": "Time"
+    },
+    {
+      "id": "word_235",
+      "english": "century",
+      "ipa": "/century/",
+      "chinese": "世纪",
+      "category": "Time"
+    },
+    {
+      "id": "word_236",
+      "english": "moment",
+      "ipa": "/moment/",
+      "chinese": "片刻,瞬间",
+      "category": "Time"
+    },
+    {
+      "id": "word_237",
+      "english": "weekly",
+      "ipa": "/weekly/",
+      "chinese": "每周的",
+      "category": "Time"
+    }
+  ],
+  "Communication and Entertainment": [
+    {
+      "id": "word_238",
+      "english": "advertisement",
+      "ipa": "/advertisement/",
+      "chinese": "广告",
+      "category": "Communication and Entertainment"
+    },
+    {
+      "id": "word_239",
+      "english": "email",
+      "ipa": "/email/",
+      "chinese": "电子邮件",
+      "category": "Communication and Entertainment"
+    },
+    {
+      "id": "word_240",
+      "english": "painter",
+      "ipa": "/painter/",
+      "chinese": "画家",
+      "category": "Communication and Entertainment"
+    },
+    {
+      "id": "word_241",
+      "english": "art",
+      "ipa": "/art/",
+      "chinese": "艺术",
+      "category": "Communication and Entertainment"
+    },
+    {
+      "id": "word_242",
+      "english": "guidebook",
+      "ipa": "/guidebook/",
+      "chinese": "旅行指南",
+      "category": "Communication and Entertainment"
+    },
+    {
+      "id": "word_243",
+      "english": "photography",
+      "ipa": "/photography/",
+      "chinese": "摄影",
+      "category": "Communication and Entertainment"
+    },
+    {
+      "id": "word_244",
+      "english": "band",
+      "ipa": "/band/",
+      "chinese": "乐队",
+      "category": "Communication and Entertainment"
+    },
+    {
+      "id": "word_245",
+      "english": "guitar",
+      "ipa": "/guitar/",
+      "chinese": "吉他",
+      "category": "Communication and Entertainment"
+    },
+    {
+      "id": "word_246",
+      "english": "practice/practise",
+      "ipa": "/practice/practise/",
+      "chinese": "练习,实践",
+      "category": "Communication and Entertainment"
+    },
+    {
+      "id": "word_247",
+      "english": "camera",
+      "ipa": "/camera/",
+      "chinese": "相机",
+      "category": "Communication and Entertainment"
+    },
+    {
+      "id": "word_248",
+      "english": "information",
+      "ipa": "/information/",
+      "chinese": "信息",
+      "category": "Communication and Entertainment"
+    },
+    {
+      "id": "word_249",
+      "english": "prize",
+      "ipa": "/prize/",
+      "chinese": "奖品",
+      "category": "Communication and Entertainment"
+    },
+    {
+      "id": "word_250",
+      "english": "cassette",
+      "ipa": "/cassette/",
+      "chinese": "盒式磁带/盒式录像带",
+      "category": "Communication and Entertainment"
+    },
+    {
+      "id": "word_251",
+      "english": "internet",
+      "ipa": "/internet/",
+      "chinese": "因特网/互联网",
+      "category": "Communication and Entertainment"
+    },
+    {
+      "id": "word_252",
+      "english": "programme",
+      "ipa": "/programme/",
+      "chinese": "节目",
+      "category": "Communication and Entertainment"
+    },
+    {
+      "id": "word_253",
+      "english": "journalist",
+      "ipa": "/journalist/",
+      "chinese": "记者",
+      "category": "Communication and Entertainment"
+    },
+    {
+      "id": "word_254",
+      "english": "competition",
+      "ipa": "/competition/",
+      "chinese": "比赛、竞争",
+      "category": "Communication and Entertainment"
+    },
+    {
+      "id": "word_255",
+      "english": "concert",
+      "ipa": "/concert/",
+      "chinese": "音乐会",
+      "category": "Communication and Entertainment"
+    },
+    {
+      "id": "word_256",
+      "english": "magazine",
+      "ipa": "/magazine/",
+      "chinese": "杂志",
+      "category": "Communication and Entertainment"
+    },
+    {
+      "id": "word_257",
+      "english": "conversation",
+      "ipa": "/conversation/",
+      "chinese": "会话,谈话",
+      "category": "Communication and Entertainment"
+    },
+    {
+      "id": "word_258",
+      "english": "drum",
+      "ipa": "/drum/",
+      "chinese": "鼓",
+      "category": "Communication and Entertainment"
+    },
+    {
+      "id": "word_259",
+      "english": "exhibition",
+      "ipa": "/exhibition/",
+      "chinese": "展览,展览会",
+      "category": "Communication and Entertainment"
+    },
+    {
+      "id": "word_260",
+      "english": "mobile(phone)",
+      "ipa": "/mobile(phone)/",
+      "chinese": "手机",
+      "category": "Communication and Entertainment"
+    },
+    {
+      "id": "word_261",
+      "english": "mouse",
+      "ipa": "/mouse/",
+      "chinese": "老鼠,鼠标",
+      "category": "Communication and Entertainment"
+    },
+    {
+      "id": "word_262",
+      "english": "museum",
+      "ipa": "/mjuːˈziː.əm/",
+      "chinese": "博物馆",
+      "category": "Communication and Entertainment"
+    },
+    {
+      "id": "word_263",
+      "english": "opera",
+      "ipa": "/opera/",
+      "chinese": "歌剧",
+      "category": "Communication and Entertainment"
+    },
+    {
+      "id": "word_264",
+      "english": "project",
+      "ipa": "/project/",
+      "chinese": "工程、项目",
+      "category": "Communication and Entertainment"
+    },
+    {
+      "id": "word_265",
+      "english": "website",
+      "ipa": "/website/",
+      "chinese": "网站",
+      "category": "Communication and Entertainment"
+    },
+    {
+      "id": "word_266",
+      "english": "present",
+      "ipa": "/present/",
+      "chinese": "礼物/目前",
+      "category": "Communication and Entertainment"
+    }
+  ],
+  "Job and Work": [
+    {
+      "id": "word_267",
+      "english": "actor",
+      "ipa": "/actor/",
+      "chinese": "男演员",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_268",
+      "english": "artist",
+      "ipa": "/artist/",
+      "chinese": "艺术家",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_269",
+      "english": "businessman",
+      "ipa": "/businessman/",
+      "chinese": "商人",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_270",
+      "english": "chemist",
+      "ipa": "/chemist/",
+      "chinese": "化学家,药剂师",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_271",
+      "english": "cleaner",
+      "ipa": "/cleaner/",
+      "chinese": "清洁工/清洁器(剂)",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_272",
+      "english": "colleague",
+      "ipa": "/colleague/",
+      "chinese": "同事",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_273",
+      "english": "doctor",
+      "ipa": "/doctor/",
+      "chinese": "医生",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_274",
+      "english": "driver",
+      "ipa": "/driver/",
+      "chinese": "司机",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_275",
+      "english": "occupation",
+      "ipa": "/occupation/",
+      "chinese": "职业",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_276",
+      "english": "painter",
+      "ipa": "/painter/",
+      "chinese": "画家",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_277",
+      "english": "pharmacy",
+      "ipa": "/pharmacy/",
+      "chinese": "药房",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_278",
+      "english": "photographer",
+      "ipa": "/photographer/",
+      "chinese": "摄影师",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_279",
+      "english": "pilot",
+      "ipa": "/ˈpaɪ.lət/",
+      "chinese": "飞行员",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_280",
+      "english": "receptionist",
+      "ipa": "/receptionist/",
+      "chinese": "接待员",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_281",
+      "english": "earn",
+      "ipa": "/earn/",
+      "chinese": "赚得,获得",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_282",
+      "english": "engineer",
+      "ipa": "/ˌen.dʒɪˈnɪər/",
+      "chinese": "工程师",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_283",
+      "english": "guest",
+      "ipa": "/guest/",
+      "chinese": "客人",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_284",
+      "english": "guide",
+      "ipa": "/guide/",
+      "chinese": "引导者、指南",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_285",
+      "english": "company",
+      "ipa": "/company/",
+      "chinese": "公司",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_286",
+      "english": "hairdresser",
+      "ipa": "/hairdresser/",
+      "chinese": "理发师",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_287",
+      "english": "computer",
+      "ipa": "/computer/",
+      "chinese": "电脑",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_288",
+      "english": "instructions",
+      "ipa": "/instructions/",
+      "chinese": "说明书",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_289",
+      "english": "customer",
+      "ipa": "/customer/",
+      "chinese": "顾客",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_290",
+      "english": "journalist",
+      "ipa": "/journalist/",
+      "chinese": "记者",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_291",
+      "english": "secretary",
+      "ipa": "/secretary/",
+      "chinese": "秘书",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_292",
+      "english": "shop assistant",
+      "ipa": "/shop assistant/",
+      "chinese": "店员",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_293",
+      "english": "staff",
+      "ipa": "/staff/",
+      "chinese": "全体人员,同事",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_294",
+      "english": "dentist",
+      "ipa": "/dentist/",
+      "chinese": "牙医",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_295",
+      "english": "diploma",
+      "ipa": "/diploma/",
+      "chinese": "文凭",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_296",
+      "english": "mechanic",
+      "ipa": "/məˈkæn.ɪk/",
+      "chinese": "机械工",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_297",
+      "english": "nurse",
+      "ipa": "/nurse/",
+      "chinese": "护士",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_298",
+      "english": "tour guide",
+      "ipa": "/tʊər/",
+      "chinese": "导游",
+      "category": "Job and Work"
+    },
+    {
+      "id": "word_299",
+      "english": "uniform",
+      "ipa": "/uniform/",
+      "chinese": "制服",
+      "category": "Job and Work"
+    }
+  ],
+  "Body and Health": [
+    {
+      "id": "word_300",
+      "english": "accident",
+      "ipa": "/accident/",
+      "chinese": "事故、意外",
+      "category": "Body and Health"
+    },
+    {
+      "id": "word_301",
+      "english": "ambulance",
+      "ipa": "/ˈæm.bjə.ləns/",
+      "chinese": "救护车",
+      "category": "Body and Health"
+    },
+    {
+      "id": "word_302",
+      "english": "appointment",
+      "ipa": "/appointment/",
+      "chinese": "约会、预约",
+      "category": "Body and Health"
+    },
+    {
+      "id": "word_303",
+      "english": "arm",
+      "ipa": "/arm/",
+      "chinese": "手臂",
+      "category": "Body and Health"
+    },
+    {
+      "id": "word_304",
+      "english": "body",
+      "ipa": "/body/",
+      "chinese": "身体",
+      "category": "Body and Health"
+    },
+    {
+      "id": "word_305",
+      "english": "back",
+      "ipa": "/back/",
+      "chinese": "后背,脊背",
+      "category": "Body and Health"
+    },
+    {
+      "id": "word_306",
+      "english": "check",
+      "ipa": "/check/",
+      "chinese": "检查",
+      "category": "Body and Health"
+    },
+    {
+      "id": "word_307",
+      "english": "chemist",
+      "ipa": "/chemist/",
+      "chinese": "药剂师,化学家",
+      "category": "Body and Health"
+    },
+    {
+      "id": "word_308",
+      "english": "comb",
+      "ipa": "/comb/",
+      "chinese": "梳子",
+      "category": "Body and Health"
+    },
+    {
+      "id": "word_309",
+      "english": "dangerous",
+      "ipa": "/dangerous/",
+      "chinese": "危险的",
+      "category": "Body and Health"
+    },
+    {
+      "id": "word_310",
+      "english": "dentist",
+      "ipa": "/dentist/",
+      "chinese": "牙医",
+      "category": "Body and Health"
+    },
+    {
+      "id": "word_311",
+      "english": "dead",
+      "ipa": "/dead/",
+      "chinese": "死亡的/死者",
+      "category": "Body and Health"
+    },
+    {
+      "id": "word_312",
+      "english": "die",
+      "ipa": "/die/",
+      "chinese": "死;死亡",
+      "category": "Body and Health"
+    },
+    {
+      "id": "word_313",
+      "english": "feel",
+      "ipa": "/feel/",
+      "chinese": "感觉",
+      "category": "Body and Health"
+    },
+    {
+      "id": "word_314",
+      "english": "hospital",
+      "ipa": "/ˈhɒs.pɪ.təl/",
+      "chinese": "医院",
+      "category": "Body and Health"
+    },
+    {
+      "id": "word_315",
+      "english": "hurt",
+      "ipa": "/hurt/",
+      "chinese": "伤害,使疼痛",
+      "category": "Body and Health"
+    },
+    {
+      "id": "word_316",
+      "english": "insurance",
+      "ipa": "/insurance/",
+      "chinese": "保险",
+      "category": "Body and Health"
+    },
+    {
+      "id": "word_317",
+      "english": "medicine",
+      "ipa": "/medicine/",
+      "chinese": "药",
+      "category": "Body and Health"
+    },
+    {
+      "id": "word_318",
+      "english": "neck",
+      "ipa": "/neck/",
+      "chinese": "脖子、颈",
+      "category": "Body and Health"
+    },
+    {
+      "id": "word_319",
+      "english": "problem",
+      "ipa": "/problem/",
+      "chinese": "问题",
+      "category": "Body and Health"
+    },
+    {
+      "id": "word_320",
+      "english": "soap",
+      "ipa": "/soap/",
+      "chinese": "肥皂",
+      "category": "Body and Health"
+    },
+    {
+      "id": "word_321",
+      "english": "sick",
+      "ipa": "/sick/",
+      "chinese": "恶心的,生病的",
+      "category": "Body and Health"
+    },
+    {
+      "id": "word_322",
+      "english": "stomach",
+      "ipa": "/stomach/",
+      "chinese": "胃",
+      "category": "Body and Health"
+    },
+    {
+      "id": "word_323",
+      "english": "toothbrush",
+      "ipa": "/toothbrush/",
+      "chinese": "牙刷",
+      "category": "Body and Health"
+    },
+    {
+      "id": "word_324",
+      "english": "pain",
+      "ipa": "/pain/",
+      "chinese": "疼痛,痛苦",
+      "category": "Body and Health"
+    },
+    {
+      "id": "word_325",
+      "english": "lie down",
+      "ipa": "/lie down/",
+      "chinese": "躺下",
+      "category": "Body and Health"
+    },
+    {
+      "id": "word_326",
+      "english": "burn",
+      "ipa": "/burn/",
+      "chinese": "烧伤,灼伤",
+      "category": "Body and Health"
+    },
+    {
+      "id": "word_327",
+      "english": "break",
+      "ipa": "/break/",
+      "chinese": "中断/打断;休息",
+      "category": "Body and Health"
+    }
+  ],
+  "Measurements": [
+    {
+      "id": "word_328",
+      "english": "centimeter",
+      "ipa": "/centimeter/",
+      "chinese": "厘米",
+      "category": "Measurements"
+    },
+    {
+      "id": "word_329",
+      "english": "degree",
+      "ipa": "/degree/",
+      "chinese": "度数",
+      "category": "Measurements"
+    },
+    {
+      "id": "word_330",
+      "english": "gram(me)",
+      "ipa": "/gram(me)/",
+      "chinese": "克",
+      "category": "Measurements"
+    },
+    {
+      "id": "word_331",
+      "english": "kilo(gram)",
+      "ipa": "/kilo(gram)/",
+      "chinese": "千克",
+      "category": "Measurements"
+    },
+    {
+      "id": "word_332",
+      "english": "kilometre",
+      "ipa": "/kilometre/",
+      "chinese": "公里",
+      "category": "Measurements"
+    },
+    {
+      "id": "word_333",
+      "english": "litre",
+      "ipa": "/litre/",
+      "chinese": "公升",
+      "category": "Measurements"
+    },
+    {
+      "id": "word_334",
+      "english": "metre",
+      "ipa": "/metre/",
+      "chinese": "米",
+      "category": "Measurements"
+    },
+    {
+      "id": "word_335",
+      "english": "mile",
+      "ipa": "/maɪl/",
+      "chinese": "英里",
+      "category": "Measurements"
+    },
+    {
+      "id": "word_336",
+      "english": "minute",
+      "ipa": "/minute/",
+      "chinese": "分钟",
+      "category": "Measurements"
+    },
+    {
+      "id": "word_337",
+      "english": "moment",
+      "ipa": "/moment/",
+      "chinese": "片刻",
+      "category": "Measurements"
+    },
+    {
+      "id": "word_338",
+      "english": "quarter",
+      "ipa": "/quarter/",
+      "chinese": "四分之一",
+      "category": "Measurements"
+    },
+    {
+      "id": "word_339",
+      "english": "second",
+      "ipa": "/second/",
+      "chinese": "秒",
+      "category": "Measurements"
+    },
+    {
+      "id": "word_340",
+      "english": "temperature",
+      "ipa": "/temperature/",
+      "chinese": "温度",
+      "category": "Measurements"
+    },
+    {
+      "id": "word_341",
+      "english": "week",
+      "ipa": "/week/",
+      "chinese": "星期,周",
+      "category": "Measurements"
+    },
+    {
+      "id": "word_342",
+      "english": "year",
+      "ipa": "/year/",
+      "chinese": "年",
+      "category": "Measurements"
+    }
+  ],
+  "Documents and Texts": [
+    {
+      "id": "word_343",
+      "english": "bill",
+      "ipa": "/bill/",
+      "chinese": "账单、票据",
+      "category": "Documents and Texts"
+    },
+    {
+      "id": "word_344",
+      "english": "book",
+      "ipa": "/book/",
+      "chinese": "书",
+      "category": "Documents and Texts"
+    },
+    {
+      "id": "word_345",
+      "english": "card",
+      "ipa": "/card/",
+      "chinese": "卡片",
+      "category": "Documents and Texts"
+    },
+    {
+      "id": "word_346",
+      "english": "diploma",
+      "ipa": "/diploma/",
+      "chinese": "文凭",
+      "category": "Documents and Texts"
+    },
+    {
+      "id": "word_347",
+      "english": "form",
+      "ipa": "/form/",
+      "chinese": "表格",
+      "category": "Documents and Texts"
+    },
+    {
+      "id": "word_348",
+      "english": "insurance",
+      "ipa": "/insurance/",
+      "chinese": "保险",
+      "category": "Documents and Texts"
+    },
+    {
+      "id": "word_349",
+      "english": "licence",
+      "ipa": "/licence/",
+      "chinese": "执照,许可证",
+      "category": "Documents and Texts"
+    },
+    {
+      "id": "word_350",
+      "english": "magazine",
+      "ipa": "/magazine/",
+      "chinese": "杂志",
+      "category": "Documents and Texts"
+    },
+    {
+      "id": "word_351",
+      "english": "menu",
+      "ipa": "/menu/",
+      "chinese": "菜单,选单",
+      "category": "Documents and Texts"
+    },
+    {
+      "id": "word_352",
+      "english": "message",
+      "ipa": "/message/",
+      "chinese": "消息,信息",
+      "category": "Documents and Texts"
+    },
+    {
+      "id": "word_353",
+      "english": "newspaper",
+      "ipa": "/newspaper/",
+      "chinese": "报纸",
+      "category": "Documents and Texts"
+    },
+    {
+      "id": "word_354",
+      "english": "note",
+      "ipa": "/note/",
+      "chinese": "笔记,备忘录",
+      "category": "Documents and Texts"
+    },
+    {
+      "id": "word_355",
+      "english": "passport",
+      "ipa": "/ˈpɑːs.pɔːt/",
+      "chinese": "护照",
+      "category": "Documents and Texts"
+    },
+    {
+      "id": "word_356",
+      "english": "postcard",
+      "ipa": "/postcard/",
+      "chinese": "明信片",
+      "category": "Documents and Texts"
+    },
+    {
+      "id": "word_357",
+      "english": "project",
+      "ipa": "/project/",
+      "chinese": "工程,项目",
+      "category": "Documents and Texts"
+    }
+  ],
+  "Shopping and Money": [
+    {
+      "id": "word_358",
+      "english": "assistant",
+      "ipa": "/assistant/",
+      "chinese": "助理,店员",
+      "category": "Shopping and Money"
+    },
+    {
+      "id": "word_359",
+      "english": "bookshop",
+      "ipa": "/ˈbʊk.ʃɒp/",
+      "chinese": "书店",
+      "category": "Shopping and Money"
+    },
+    {
+      "id": "word_360",
+      "english": "cash",
+      "ipa": "/cash/",
+      "chinese": "现金",
+      "category": "Shopping and Money"
+    },
+    {
+      "id": "word_361",
+      "english": "change",
+      "ipa": "/change/",
+      "chinese": "零钱",
+      "category": "Shopping and Money"
+    },
+    {
+      "id": "word_362",
+      "english": "cheap",
+      "ipa": "/cheap/",
+      "chinese": "便宜的",
+      "category": "Shopping and Money"
+    },
+    {
+      "id": "word_363",
+      "english": "cheque",
+      "ipa": "/cheque/",
+      "chinese": "支票",
+      "category": "Shopping and Money"
+    },
+    {
+      "id": "word_364",
+      "english": "closed",
+      "ipa": "/closed/",
+      "chinese": "关门的",
+      "category": "Shopping and Money"
+    },
+    {
+      "id": "word_365",
+      "english": "cost",
+      "ipa": "/cost/",
+      "chinese": "花费",
+      "category": "Shopping and Money"
+    },
+    {
+      "id": "word_366",
+      "english": "customer",
+      "ipa": "/customer/",
+      "chinese": "顾客",
+      "category": "Shopping and Money"
+    },
+    {
+      "id": "word_367",
+      "english": "department store",
+      "ipa": "/department store/",
+      "chinese": "百货公司",
+      "category": "Shopping and Money"
+    },
+    {
+      "id": "word_368",
+      "english": "dollar",
+      "ipa": "/dollar/",
+      "chinese": "美元",
+      "category": "Shopping and Money"
+    },
+    {
+      "id": "word_369",
+      "english": "Euro",
+      "ipa": "/Euro/",
+      "chinese": "欧元",
+      "category": "Shopping and Money"
+    },
+    {
+      "id": "word_370",
+      "english": "expensive",
+      "ipa": "/expensive/",
+      "chinese": "昂贵的",
+      "category": "Shopping and Money"
+    },
+    {
+      "id": "word_371",
+      "english": "for sale",
+      "ipa": "/for sale/",
+      "chinese": "出售的,待售的",
+      "category": "Shopping and Money"
+    },
+    {
+      "id": "word_372",
+      "english": "pay for",
+      "ipa": "/pay for/",
+      "chinese": "偿还,付款",
+      "category": "Shopping and Money"
+    },
+    {
+      "id": "word_373",
+      "english": "pence",
+      "ipa": "/pence/",
+      "chinese": "便士(复数)",
+      "category": "Shopping and Money"
+    },
+    {
+      "id": "word_374",
+      "english": "penny",
+      "ipa": "/penny/",
+      "chinese": "便士",
+      "category": "Shopping and Money"
+    },
+    {
+      "id": "word_375",
+      "english": "pound",
+      "ipa": "/pound/",
+      "chinese": "英镑",
+      "category": "Shopping and Money"
+    },
+    {
+      "id": "word_376",
+      "english": "shop assistant",
+      "ipa": "/shop assistant/",
+      "chinese": "店员",
+      "category": "Shopping and Money"
+    },
+    {
+      "id": "word_377",
+      "english": "supermarket",
+      "ipa": "/ˈsuː.pəˌmɑː.kɪt/",
+      "chinese": "超级市场",
+      "category": "Shopping and Money"
+    },
+    {
+      "id": "word_378",
+      "english": "try on",
+      "ipa": "/try on/",
+      "chinese": "试穿",
+      "category": "Shopping and Money"
+    }
+  ],
+  "Studies": [
+    {
+      "id": "word_379",
+      "english": "beginner",
+      "ipa": "/beginner/",
+      "chinese": "初学者",
+      "category": "Studies"
+    },
+    {
+      "id": "word_380",
+      "english": "board",
+      "ipa": "/board/",
+      "chinese": "董事会",
+      "category": "Studies"
+    },
+    {
+      "id": "word_381",
+      "english": "bookshelf",
+      "ipa": "/bookshelf/",
+      "chinese": "书架",
+      "category": "Studies"
+    },
+    {
+      "id": "word_382",
+      "english": "college",
+      "ipa": "/college/",
+      "chinese": "学院",
+      "category": "Studies"
+    },
+    {
+      "id": "word_383",
+      "english": "course",
+      "ipa": "/course/",
+      "chinese": "课程",
+      "category": "Studies"
+    },
+    {
+      "id": "word_384",
+      "english": "dictionary",
+      "ipa": "/dictionary/",
+      "chinese": "字典",
+      "category": "Studies"
+    },
+    {
+      "id": "word_385",
+      "english": "diploma",
+      "ipa": "/diploma/",
+      "chinese": "文凭",
+      "category": "Studies"
+    },
+    {
+      "id": "word_386",
+      "english": "exam(ination)",
+      "ipa": "/exam(ination)/",
+      "chinese": "考试",
+      "category": "Studies"
+    },
+    {
+      "id": "word_387",
+      "english": "Geography",
+      "ipa": "/Geography/",
+      "chinese": "地理学",
+      "category": "Studies"
+    },
+    {
+      "id": "word_388",
+      "english": "History",
+      "ipa": "/History/",
+      "chinese": "历史学",
+      "category": "Studies"
+    },
+    {
+      "id": "word_389",
+      "english": "homework",
+      "ipa": "/homework/",
+      "chinese": "家庭作业",
+      "category": "Studies"
+    },
+    {
+      "id": "word_390",
+      "english": "information",
+      "ipa": "/information/",
+      "chinese": "信息",
+      "category": "Studies"
+    },
+    {
+      "id": "word_391",
+      "english": "instructions",
+      "ipa": "/instructions/",
+      "chinese": "使用说明",
+      "category": "Studies"
+    },
+    {
+      "id": "word_392",
+      "english": "language",
+      "ipa": "/language/",
+      "chinese": "语言",
+      "category": "Studies"
+    },
+    {
+      "id": "word_393",
+      "english": "learn",
+      "ipa": "/learn/",
+      "chinese": "学习",
+      "category": "Studies"
+    },
+    {
+      "id": "word_394",
+      "english": "level",
+      "ipa": "/level/",
+      "chinese": "水平,标准",
+      "category": "Studies"
+    },
+    {
+      "id": "word_395",
+      "english": "library",
+      "ipa": "/ˈlaɪ.brər.i/",
+      "chinese": "图书馆",
+      "category": "Studies"
+    },
+    {
+      "id": "word_396",
+      "english": "Mathematics",
+      "ipa": "/Mathematics/",
+      "chinese": "数学",
+      "category": "Studies"
+    },
+    {
+      "id": "word_397",
+      "english": "pupil",
+      "ipa": "/pupil/",
+      "chinese": "小学生",
+      "category": "Studies"
+    },
+    {
+      "id": "word_398",
+      "english": "remember",
+      "ipa": "/remember/",
+      "chinese": "记得,记住",
+      "category": "Studies"
+    },
+    {
+      "id": "word_399",
+      "english": "school",
+      "ipa": "/skuːl/",
+      "chinese": "学校",
+      "category": "Studies"
+    },
+    {
+      "id": "word_400",
+      "english": "Science",
+      "ipa": "/Science/",
+      "chinese": "科学",
+      "category": "Studies"
+    },
+    {
+      "id": "word_401",
+      "english": "subject",
+      "ipa": "/subject/",
+      "chinese": "科目",
+      "category": "Studies"
+    },
+    {
+      "id": "word_402",
+      "english": "university",
+      "ipa": "/ˌjuː.nɪˈvɜː.sə.ti/",
+      "chinese": "大学",
+      "category": "Studies"
+    }
+  ],
+  "Family and Friends": [
+    {
+      "id": "word_403",
+      "english": "brother",
+      "ipa": "/brother/",
+      "chinese": "兄弟",
+      "category": "Family and Friends"
+    },
+    {
+      "id": "word_404",
+      "english": "child",
+      "ipa": "/child/",
+      "chinese": "儿童,孩子",
+      "category": "Family and Friends"
+    },
+    {
+      "id": "word_405",
+      "english": "colleague",
+      "ipa": "/colleague/",
+      "chinese": "同事",
+      "category": "Family and Friends"
+    },
+    {
+      "id": "word_406",
+      "english": "cousin",
+      "ipa": "/cousin/",
+      "chinese": "堂表兄弟姐妹",
+      "category": "Family and Friends"
+    },
+    {
+      "id": "word_407",
+      "english": "daughter",
+      "ipa": "/daughter/",
+      "chinese": "女儿",
+      "category": "Family and Friends"
+    },
+    {
+      "id": "word_408",
+      "english": "family",
+      "ipa": "/family/",
+      "chinese": "家庭",
+      "category": "Family and Friends"
+    },
+    {
+      "id": "word_409",
+      "english": "friend",
+      "ipa": "/friend/",
+      "chinese": "朋友",
+      "category": "Family and Friends"
+    },
+    {
+      "id": "word_410",
+      "english": "grandchild",
+      "ipa": "/grandchild/",
+      "chinese": "(外)孙女, (外)孙子",
+      "category": "Family and Friends"
+    },
+    {
+      "id": "word_411",
+      "english": "granddaughter",
+      "ipa": "/granddaughter/",
+      "chinese": "(外)孙女",
+      "category": "Family and Friends"
+    },
+    {
+      "id": "word_412",
+      "english": "grandfather",
+      "ipa": "/grandfather/",
+      "chinese": "祖父",
+      "category": "Family and Friends"
+    },
+    {
+      "id": "word_413",
+      "english": "grandmother",
+      "ipa": "/grandmother/",
+      "chinese": "祖母",
+      "category": "Family and Friends"
+    },
+    {
+      "id": "word_414",
+      "english": "grandparent",
+      "ipa": "/grandparent/",
+      "chinese": "祖父母",
+      "category": "Family and Friends"
+    },
+    {
+      "id": "word_415",
+      "english": "grandson",
+      "ipa": "/grandson/",
+      "chinese": "孙子,外孙",
+      "category": "Family and Friends"
+    },
+    {
+      "id": "word_416",
+      "english": "husband",
+      "ipa": "/husband/",
+      "chinese": "丈夫",
+      "category": "Family and Friends"
+    },
+    {
+      "id": "word_417",
+      "english": "love",
+      "ipa": "/love/",
+      "chinese": "爱",
+      "category": "Family and Friends"
+    },
+    {
+      "id": "word_418",
+      "english": "married",
+      "ipa": "/married/",
+      "chinese": "已婚的",
+      "category": "Family and Friends"
+    },
+    {
+      "id": "word_419",
+      "english": "Mr.",
+      "ipa": "/Mr./",
+      "chinese": "先生",
+      "category": "Family and Friends"
+    },
+    {
+      "id": "word_420",
+      "english": "Mrs.",
+      "ipa": "/Mrs./",
+      "chinese": "女士,夫人",
+      "category": "Family and Friends"
+    },
+    {
+      "id": "word_421",
+      "english": "Ms.",
+      "ipa": "/Ms./",
+      "chinese": "女士",
+      "category": "Family and Friends"
+    },
+    {
+      "id": "word_422",
+      "english": "neighbour",
+      "ipa": "/neighbour/",
+      "chinese": "邻居",
+      "category": "Family and Friends"
+    },
+    {
+      "id": "word_423",
+      "english": "pen-friend",
+      "ipa": "/pen-friend/",
+      "chinese": "笔友",
+      "category": "Family and Friends"
+    },
+    {
+      "id": "word_424",
+      "english": "surname",
+      "ipa": "/surname/",
+      "chinese": "姓",
+      "category": "Family and Friends"
+    },
+    {
+      "id": "word_425",
+      "english": "teenager",
+      "ipa": "/teenager/",
+      "chinese": "青少年",
+      "category": "Family and Friends"
+    },
+    {
+      "id": "word_426",
+      "english": "guest",
+      "ipa": "/guest/",
+      "chinese": "客人",
+      "category": "Family and Friends"
+    }
+  ],
+  "Sports and Leisure": [
+    {
+      "id": "word_427",
+      "english": "baseball",
+      "ipa": "/baseball/",
+      "chinese": "棒球",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_428",
+      "english": "basketball",
+      "ipa": "/basketball/",
+      "chinese": "篮球",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_429",
+      "english": "beach",
+      "ipa": "/biːtʃ/",
+      "chinese": "沙滩",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_430",
+      "english": "bicycle",
+      "ipa": "/bicycle/",
+      "chinese": "自行车",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_431",
+      "english": "boat",
+      "ipa": "/boat/",
+      "chinese": "船",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_432",
+      "english": "bike",
+      "ipa": "/bike/",
+      "chinese": "自行车",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_433",
+      "english": "camera",
+      "ipa": "/camera/",
+      "chinese": "照相机",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_434",
+      "english": "camp",
+      "ipa": "/camp/",
+      "chinese": "露营",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_435",
+      "english": "campsite",
+      "ipa": "/campsite/",
+      "chinese": "营地",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_436",
+      "english": "catch",
+      "ipa": "/catch/",
+      "chinese": "捕捉,捉住",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_437",
+      "english": "climb",
+      "ipa": "/climb/",
+      "chinese": "攀登,爬",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_438",
+      "english": "club",
+      "ipa": "/club/",
+      "chinese": "俱乐部",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_439",
+      "english": "competition",
+      "ipa": "/competition/",
+      "chinese": "比赛,竞争",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_440",
+      "english": "football",
+      "ipa": "/football/",
+      "chinese": "足球",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_441",
+      "english": "game",
+      "ipa": "/game/",
+      "chinese": "游戏,比赛",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_442",
+      "english": "golf",
+      "ipa": "/golf/",
+      "chinese": "高尔夫球",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_443",
+      "english": "hobby",
+      "ipa": "/hobby/",
+      "chinese": "爱好",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_444",
+      "english": "hockey",
+      "ipa": "/hockey/",
+      "chinese": "曲棍球",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_445",
+      "english": "stadium",
+      "ipa": "/stadium/",
+      "chinese": "体育场",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_446",
+      "english": "swimming",
+      "ipa": "/swimming/",
+      "chinese": "游泳",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_447",
+      "english": "holiday",
+      "ipa": "/holiday/",
+      "chinese": "节假日",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_448",
+      "english": "luck",
+      "ipa": "/luck/",
+      "chinese": "运气",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_449",
+      "english": "magazine",
+      "ipa": "/magazine/",
+      "chinese": "杂志",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_450",
+      "english": "member",
+      "ipa": "/member/",
+      "chinese": "成员,会员",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_451",
+      "english": "party",
+      "ipa": "/party/",
+      "chinese": "聚会,派对",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_452",
+      "english": "picnic",
+      "ipa": "/picnic/",
+      "chinese": "野餐",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_453",
+      "english": "pool",
+      "ipa": "/pool/",
+      "chinese": "水池",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_454",
+      "english": "prize",
+      "ipa": "/prize/",
+      "chinese": "奖品",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_455",
+      "english": "race",
+      "ipa": "/race/",
+      "chinese": "赛跑",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_456",
+      "english": "riding",
+      "ipa": "/riding/",
+      "chinese": "骑马",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_457",
+      "english": "sailing",
+      "ipa": "/sailing/",
+      "chinese": "航行,帆船运动",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_458",
+      "english": "skiing",
+      "ipa": "/skiing/",
+      "chinese": "滑雪",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_459",
+      "english": "sports centre",
+      "ipa": "/sports centre/",
+      "chinese": "体育中心",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_460",
+      "english": "table tennis",
+      "ipa": "/ˈteɪ.bəl/",
+      "chinese": "乒乓球",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_461",
+      "english": "team",
+      "ipa": "/team/",
+      "chinese": "队,组",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_462",
+      "english": "tent",
+      "ipa": "/tent/",
+      "chinese": "帐篷",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_463",
+      "english": "throw",
+      "ipa": "/throw/",
+      "chinese": "投,掷,丢",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_464",
+      "english": "tired",
+      "ipa": "/tired/",
+      "chinese": "疲劳的,累的",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_465",
+      "english": "trainers",
+      "ipa": "/trainers/",
+      "chinese": "运动鞋",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_466",
+      "english": "Volleyball",
+      "ipa": "/Volleyball/",
+      "chinese": "排球",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_467",
+      "english": "watch",
+      "ipa": "/watch/",
+      "chinese": "手表/观看",
+      "category": "Sports and Leisure"
+    },
+    {
+      "id": "word_468",
+      "english": "winner",
+      "ipa": "/winner/",
+      "chinese": "获胜者,冠军",
+      "category": "Sports and Leisure"
+    }
+  ],
+  "The Home": [
+    {
+      "id": "word_469",
+      "english": "address",
+      "ipa": "/əˈdres/",
+      "chinese": "地址",
+      "category": "The Home"
+    },
+    {
+      "id": "word_470",
+      "english": "bathroom",
+      "ipa": "/ˈbɑːθ.ruːm/",
+      "chinese": "浴室",
+      "category": "The Home"
+    },
+    {
+      "id": "word_471",
+      "english": "bedroom",
+      "ipa": "/ˈbed.ruːm/",
+      "chinese": "卧室",
+      "category": "The Home"
+    },
+    {
+      "id": "word_472",
+      "english": "blanket",
+      "ipa": "/blanket/",
+      "chinese": "毯子",
+      "category": "The Home"
+    },
+    {
+      "id": "word_473",
+      "english": "bookshelf",
+      "ipa": "/bookshelf/",
+      "chinese": "书架",
+      "category": "The Home"
+    },
+    {
+      "id": "word_474",
+      "english": "bowl",
+      "ipa": "/bowl/",
+      "chinese": "碗",
+      "category": "The Home"
+    },
+    {
+      "id": "word_475",
+      "english": "chair",
+      "ipa": "/tʃeər/",
+      "chinese": "椅子",
+      "category": "The Home"
+    },
+    {
+      "id": "word_476",
+      "english": "cupboard",
+      "ipa": "/cupboard/",
+      "chinese": "衣橱",
+      "category": "The Home"
+    },
+    {
+      "id": "word_477",
+      "english": "dining room",
+      "ipa": "/dining room/",
+      "chinese": "饭厅",
+      "category": "The Home"
+    },
+    {
+      "id": "word_478",
+      "english": "downstairs",
+      "ipa": "/downstairs/",
+      "chinese": "楼下(的)",
+      "category": "The Home"
+    },
+    {
+      "id": "word_479",
+      "english": "flat",
+      "ipa": "/flat/",
+      "chinese": "公寓",
+      "category": "The Home"
+    },
+    {
+      "id": "word_480",
+      "english": "floor",
+      "ipa": "/floor/",
+      "chinese": "楼层",
+      "category": "The Home"
+    },
+    {
+      "id": "word_481",
+      "english": "furniture",
+      "ipa": "/furniture/",
+      "chinese": "家具",
+      "category": "The Home"
+    },
+    {
+      "id": "word_482",
+      "english": "garage",
+      "ipa": "/ˈɡær.ɑːʒ/",
+      "chinese": "车库",
+      "category": "The Home"
+    },
+    {
+      "id": "word_483",
+      "english": "garden",
+      "ipa": "/ˈɡɑː.dən/",
+      "chinese": "花园",
+      "category": "The Home"
+    },
+    {
+      "id": "word_484",
+      "english": "gate",
+      "ipa": "/gate/",
+      "chinese": "大门",
+      "category": "The Home"
+    },
+    {
+      "id": "word_485",
+      "english": "hall",
+      "ipa": "/hall/",
+      "chinese": "大厅",
+      "category": "The Home"
+    },
+    {
+      "id": "word_486",
+      "english": "kitchen",
+      "ipa": "/ˈkɪtʃ.ɪn/",
+      "chinese": "厨房",
+      "category": "The Home"
+    },
+    {
+      "id": "word_487",
+      "english": "living room",
+      "ipa": "/living room/",
+      "chinese": "客厅",
+      "category": "The Home"
+    },
+    {
+      "id": "word_488",
+      "english": "pillow",
+      "ipa": "/pillow/",
+      "chinese": "枕头",
+      "category": "The Home"
+    },
+    {
+      "id": "word_489",
+      "english": "plate",
+      "ipa": "/plate/",
+      "chinese": "碟,盘",
+      "category": "The Home"
+    },
+    {
+      "id": "word_490",
+      "english": "roof",
+      "ipa": "/roof/",
+      "chinese": "屋顶",
+      "category": "The Home"
+    },
+    {
+      "id": "word_491",
+      "english": "shower",
+      "ipa": "/shower/",
+      "chinese": "淋浴",
+      "category": "The Home"
+    },
+    {
+      "id": "word_492",
+      "english": "sitting room",
+      "ipa": "/sitting room/",
+      "chinese": "客室",
+      "category": "The Home"
+    },
+    {
+      "id": "word_493",
+      "english": "sofa",
+      "ipa": "/sofa/",
+      "chinese": "沙发",
+      "category": "The Home"
+    },
+    {
+      "id": "word_494",
+      "english": "toilet",
+      "ipa": "/toilet/",
+      "chinese": "厕所,盥洗室",
+      "category": "The Home"
+    },
+    {
+      "id": "word_495",
+      "english": "towel",
+      "ipa": "/towel/",
+      "chinese": "毛巾",
+      "category": "The Home"
+    }
+  ],
+  "Clothes and Accessories": [
+    {
+      "id": "word_496",
+      "english": "bag",
+      "ipa": "/bag/",
+      "chinese": "包",
+      "category": "Clothes and Accessories"
+    },
+    {
+      "id": "word_497",
+      "english": "skirt",
+      "ipa": "/skirt/",
+      "chinese": "裙子",
+      "category": "Clothes and Accessories"
+    },
+    {
+      "id": "word_498",
+      "english": "belt",
+      "ipa": "/belt/",
+      "chinese": "腰带",
+      "category": "Clothes and Accessories"
+    },
+    {
+      "id": "word_499",
+      "english": "suit",
+      "ipa": "/suit/",
+      "chinese": "套装",
+      "category": "Clothes and Accessories"
+    },
+    {
+      "id": "word_500",
+      "english": "blouse",
+      "ipa": "/blouse/",
+      "chinese": "女式衬衫",
+      "category": "Clothes and Accessories"
+    },
+    {
+      "id": "word_501",
+      "english": "sweater",
+      "ipa": "/sweater/",
+      "chinese": "毛衣",
+      "category": "Clothes and Accessories"
+    },
+    {
+      "id": "word_502",
+      "english": "boot",
+      "ipa": "/boot/",
+      "chinese": "靴子",
+      "category": "Clothes and Accessories"
+    },
+    {
+      "id": "word_503",
+      "english": "tights",
+      "ipa": "/tights/",
+      "chinese": "紧身衣,连裤袜",
+      "category": "Clothes and Accessories"
+    },
+    {
+      "id": "word_504",
+      "english": "clothes",
+      "ipa": "/clothes/",
+      "chinese": "衣服",
+      "category": "Clothes and Accessories"
+    },
+    {
+      "id": "word_505",
+      "english": "coat",
+      "ipa": "/coat/",
+      "chinese": "外套",
+      "category": "Clothes and Accessories"
+    },
+    {
+      "id": "word_506",
+      "english": "dress",
+      "ipa": "/dress/",
+      "chinese": "女装,连衣裙",
+      "category": "Clothes and Accessories"
+    },
+    {
+      "id": "word_507",
+      "english": "glasses",
+      "ipa": "/glasses/",
+      "chinese": "眼镜",
+      "category": "Clothes and Accessories"
+    },
+    {
+      "id": "word_508",
+      "english": "hat",
+      "ipa": "/hat/",
+      "chinese": "帽子",
+      "category": "Clothes and Accessories"
+    },
+    {
+      "id": "word_509",
+      "english": "jacket",
+      "ipa": "/jacket/",
+      "chinese": "短上衣,夹克衫",
+      "category": "Clothes and Accessories"
+    },
+    {
+      "id": "word_510",
+      "english": "jeans",
+      "ipa": "/jeans/",
+      "chinese": "牛仔裤",
+      "category": "Clothes and Accessories"
+    },
+    {
+      "id": "word_511",
+      "english": "trainers",
+      "ipa": "/trainers/",
+      "chinese": "运动鞋",
+      "category": "Clothes and Accessories"
+    },
+    {
+      "id": "word_512",
+      "english": "trousers",
+      "ipa": "/trousers/",
+      "chinese": "裤子",
+      "category": "Clothes and Accessories"
+    },
+    {
+      "id": "word_513",
+      "english": "try on",
+      "ipa": "/try on/",
+      "chinese": "试穿",
+      "category": "Clothes and Accessories"
+    },
+    {
+      "id": "word_514",
+      "english": "T-shirt",
+      "ipa": "/T-shirt/",
+      "chinese": "T恤衫",
+      "category": "Clothes and Accessories"
+    },
+    {
+      "id": "word_515",
+      "english": "umbrella",
+      "ipa": "/umbrella/",
+      "chinese": "伞",
+      "category": "Clothes and Accessories"
+    },
+    {
+      "id": "word_516",
+      "english": "pocket",
+      "ipa": "/pocket/",
+      "chinese": "口袋",
+      "category": "Clothes and Accessories"
+    },
+    {
+      "id": "word_517",
+      "english": "purse",
+      "ipa": "/purse/",
+      "chinese": "钱包",
+      "category": "Clothes and Accessories"
+    },
+    {
+      "id": "word_518",
+      "english": "raincoat",
+      "ipa": "/raincoat/",
+      "chinese": "雨衣",
+      "category": "Clothes and Accessories"
+    },
+    {
+      "id": "word_519",
+      "english": "shirt",
+      "ipa": "/shirt/",
+      "chinese": "衬衫",
+      "category": "Clothes and Accessories"
+    },
+    {
+      "id": "word_520",
+      "english": "shoe",
+      "ipa": "/shoe/",
+      "chinese": "鞋",
+      "category": "Clothes and Accessories"
+    },
+    {
+      "id": "word_521",
+      "english": "shorts",
+      "ipa": "/shorts/",
+      "chinese": "短裤",
+      "category": "Clothes and Accessories"
+    },
+    {
+      "id": "word_522",
+      "english": "uniform",
+      "ipa": "/uniform/",
+      "chinese": "制服",
+      "category": "Clothes and Accessories"
+    },
+    {
+      "id": "word_523",
+      "english": "wallet",
+      "ipa": "/wallet/",
+      "chinese": "皮夹,钱包",
+      "category": "Clothes and Accessories"
+    },
+    {
+      "id": "word_524",
+      "english": "wear",
+      "ipa": "/wear/",
+      "chinese": "穿着",
+      "category": "Clothes and Accessories"
+    }
+  ]
+}
