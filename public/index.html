@@ -373,7 +373,7 @@
                     });
             });
             
-            // 下一个单词
+            // 下一个单词 - 使用动画锁定机制
             const nextWord = () => {
                 if (currentWords.value.length === 0) return;
                 if (currentWordIndex.value < currentWords.value.length - 1) {
@@ -384,7 +384,7 @@
                 isFlipped.value = false;
             };
             
-            // 上一个单词
+            // 上一个单词 - 使用动画锁定机制
             const prevWord = () => {
                 if (currentWords.value.length === 0) return;
                 if (currentWordIndex.value > 0) {
@@ -395,7 +395,7 @@
                 isFlipped.value = false;
             };
             
-            // 随机单词
+            // 随机单词 - 使用动画锁定机制
             const randomWord = () => {
                 if (currentWords.value.length === 0) return;
                 currentWordIndex.value = Math.floor(Math.random() * currentWords.value.length);
@@ -515,30 +515,127 @@
                     store.isFlipped.value = !store.isFlipped.value;
                 };
                 
-                // 处理答题
+                // 增加缓冲区和切换锁定
+                const displayWord = ref(null);
+                const isSwitching = ref(false);
+                
+                
+                // 监听当前单词变化，但仅在非切换状态时更新缓冲区
+                watch(() => store.currentWord.value, (newWord) => {
+                    if (!isSwitching.value && newWord) {
+                        displayWord.value = { ...newWord };
+                    }
+                });
+                
+                // 翻转卡片时候也确保内容正确
+                watch(() => store.isFlipped.value, (isFlipped) => {
+                    if (!isFlipped && !isSwitching.value && store.currentWord.value) {
+                        displayWord.value = { ...store.currentWord.value };
+                    }
+                });
+                
+                // 处理答题，使用动画锁定
                 const handleAnswer = (isCorrect) => {
-                    if (store.currentWord.value) {
+                    if (store.currentWord.value && !isSwitching.value) {
+                        // 先更新学习进度
                         store.updateProgress(store.currentWord.value.id, isCorrect);
+                        
+                        // 锁定状态，阻止重复点击
+                        isSwitching.value = true;
+                        
+                        // 先翻转到正面（蓝色）
+                        store.isFlipped.value = false;
+                        
+                        // 等待翻转动画完成后才切换单词
                         setTimeout(() => {
+                            // 切换到下一个单词
                             store.nextWord();
-                        }, 500);
+                            
+                            // 等后台数据切换完成后再更新展示内容
+                            displayWord.value = store.currentWord.value ? { ...store.currentWord.value } : null;
+                            
+                            // 解锁，允许再次操作
+                            isSwitching.value = false;
+                        }, 600); // 稍微超过CSS动画时间以确保动画完成
                     }
                 };
                 
-                // 标记为已掌握
+                // 标记为已掌握，使用相同的动画控制机制
                 const markAsMastered = () => {
-                    if (store.currentWord.value) {
+                    if (store.currentWord.value && !isSwitching.value) {
                         const wordProgress = store.progress.value[store.currentWord.value.id];
                         if (wordProgress) {
-                            // 通过将 correctCount 设置为足够高的值并调用 updateProgress，
-                            // 间接将单词标记为“已掌握”，以符合测试要求。
                             wordProgress.correctCount = 8;
                             wordProgress.level = 'familiar';
                             store.updateProgress(store.currentWord.value.id, true);
                         }
+                        
+                        // 锁定切换
+                        isSwitching.value = true;
+                        
+                        // 先翻转到正面
+                        store.isFlipped.value = false;
+                        
+                        // 等动画完成后切换单词
                         setTimeout(() => {
                             store.nextWord();
-                        }, 500);
+                            displayWord.value = store.currentWord.value ? { ...store.currentWord.value } : null;
+                            isSwitching.value = false;
+                        }, 600);
+                    }
+                };
+                
+                // 导航按钮包装函数 - 处理动画同步
+                const handleNextWord = () => {
+                    if (isSwitching.value) return;
+                    
+                    if (store.isFlipped.value) {
+                        // 如果在背面，先翻到正面再切换
+                        isSwitching.value = true;
+                        store.isFlipped.value = false;
+                        setTimeout(() => {
+                            store.nextWord();
+                            displayWord.value = store.currentWord.value ? { ...store.currentWord.value } : null;
+                            isSwitching.value = false;
+                        }, 600);
+                    } else {
+                        // 如果在正面，直接切换
+                        store.nextWord();
+                        displayWord.value = store.currentWord.value ? { ...store.currentWord.value } : null;
+                    }
+                };
+                
+                const handlePrevWord = () => {
+                    if (isSwitching.value) return;
+                    
+                    if (store.isFlipped.value) {
+                        isSwitching.value = true;
+                        store.isFlipped.value = false;
+                        setTimeout(() => {
+                            store.prevWord();
+                            displayWord.value = store.currentWord.value ? { ...store.currentWord.value } : null;
+                            isSwitching.value = false;
+                        }, 600);
+                    } else {
+                        store.prevWord();
+                        displayWord.value = store.currentWord.value ? { ...store.currentWord.value } : null;
+                    }
+                };
+                
+                const handleRandomWord = () => {
+                    if (isSwitching.value) return;
+                    
+                    if (store.isFlipped.value) {
+                        isSwitching.value = true;
+                        store.isFlipped.value = false;
+                        setTimeout(() => {
+                            store.randomWord();
+                            displayWord.value = store.currentWord.value ? { ...store.currentWord.value } : null;
+                            isSwitching.value = false;
+                        }, 600);
+                    } else {
+                        store.randomWord();
+                        displayWord.value = store.currentWord.value ? { ...store.currentWord.value } : null;
                     }
                 };
                 
@@ -587,6 +684,11 @@
                         
                         loading.value = false;
                         
+                        // 初始化缓冲区
+                        if (store.currentWord.value) {
+                            displayWord.value = { ...store.currentWord.value };
+                        }
+                        
                         console.log('应用初始化完成');
                         
                     } catch (err) {
@@ -603,7 +705,12 @@
                     speakWord,
                     flipCard,
                     handleAnswer,
-                    markAsMastered
+                    markAsMastered,
+                    displayWord,
+                    isSwitching,
+                    handleNextWord,
+                    handlePrevWord,
+                    handleRandomWord
                 };
             },
             template: `
@@ -789,15 +896,15 @@
                                     <!-- 正面 -->
                                     <div class="flip-card-front bg-gradient-to-br from-blue-500 to-purple-600 text-white flex flex-col justify-center items-center p-8">
                                         <div class="text-center">
-                                            <h2 class="text-4xl font-bold mb-4">{{ currentWord.english }}</h2>
-                                            <p class="text-xl mb-6 opacity-90">{{ currentWord.ipa }}</p>
-                                            <button @click.stop="speakWord(currentWord.english)" 
+                                            <h2 class="text-4xl font-bold mb-4">{{ displayWord ? displayWord.english : currentWord.english }}</h2>
+                                            <p class="text-xl mb-6 opacity-90">{{ displayWord ? displayWord.ipa : currentWord.ipa }}</p>
+                                            <button @click.stop="speakWord(displayWord ? displayWord.english : currentWord.english)" 
                                                     class="bg-white bg-opacity-20 hover:bg-opacity-30 px-6 py-3 rounded-lg transition-all">
                                                 <i class="fas fa-volume-up mr-2"></i>发音
                                             </button>
                                         </div>
                                         <div class="absolute bottom-4 left-4 text-sm opacity-75">
-                                            <i class="fas fa-tag mr-1"></i>{{ currentWord.category }}
+                                            <i class="fas fa-tag mr-1"></i>{{ displayWord ? displayWord.category : currentWord.category }}
                                         </div>
                                         <div class="absolute bottom-4 right-4 text-sm opacity-75">
                                             {{ currentWordIndex + 1 }} / {{ currentWords.length }}
@@ -807,17 +914,17 @@
                                     <!-- 背面 -->
                                     <div class="flip-card-back bg-gradient-to-br from-green-500 to-teal-600 text-white flex flex-col justify-center items-center p-8">
                                         <div class="text-center">
-                                            <h2 class="text-3xl font-bold mb-4">{{ currentWord.chinese }}</h2>
-                                            <p class="text-xl mb-2">{{ currentWord.english }}</p>
-                                            <p class="text-lg mb-6 opacity-90">{{ currentWord.ipa }}</p>
+                                            <h2 class="text-3xl font-bold mb-4">{{ displayWord ? displayWord.chinese : currentWord.chinese }}</h2>
+                                            <p class="text-xl mb-2">{{ displayWord ? displayWord.english : currentWord.english }}</p>
+                                            <p class="text-lg mb-6 opacity-90">{{ displayWord ? displayWord.ipa : currentWord.ipa }}</p>
                                             <div class="text-sm opacity-75">
                                                 <span class="inline-block px-3 py-1 bg-white bg-opacity-20 rounded-full">
-                                                    {{ getLevelText(progress[currentWord.id]?.level || 'new') }}
+                                                    {{ getLevelText(progress[displayWord ? displayWord.id : currentWord.id]?.level || 'new') }}
                                                 </span>
                                             </div>
                                         </div>
                                         <div class="absolute bottom-4 left-4 text-sm opacity-75">
-                                            <i class="fas fa-tag mr-1"></i>{{ currentWord.category }}
+                                            <i class="fas fa-tag mr-1"></i>{{ displayWord ? displayWord.category : currentWord.category }}
                                         </div>
                                         <div class="absolute bottom-4 right-4 text-sm opacity-75">
                                             {{ currentWordIndex + 1 }} / {{ currentWords.length }}
@@ -828,26 +935,26 @@
                             
                             <!-- 控制按钮 -->
                             <div class="mt-6 flex justify-center gap-4">
-                                <button @click="prevWord" class="px-6 py-3 bg-gray-500 text-white rounded-lg hover:bg-gray-600 transition-colors">
+                                <button @click="handlePrevWord" :disabled="isSwitching" class="px-6 py-3 bg-gray-500 text-white rounded-lg hover:bg-gray-600 transition-colors" :class="{ 'opacity-50 cursor-not-allowed': isSwitching }">
                                     <i class="fas fa-chevron-left mr-2"></i>上一个
                                 </button>
-                                <button @click="randomWord" class="px-6 py-3 bg-purple-500 text-white rounded-lg hover:bg-purple-600 transition-colors">
+                                <button @click="handleRandomWord" :disabled="isSwitching" class="px-6 py-3 bg-purple-500 text-white rounded-lg hover:bg-purple-600 transition-colors" :class="{ 'opacity-50 cursor-not-allowed': isSwitching }">
                                     <i class="fas fa-random mr-2"></i>随机
                                 </button>
-                                <button @click="nextWord" class="px-6 py-3 bg-gray-500 text-white rounded-lg hover:bg-gray-600 transition-colors">
+                                <button @click="handleNextWord" :disabled="isSwitching" class="px-6 py-3 bg-gray-500 text-white rounded-lg hover:bg-gray-600 transition-colors" :class="{ 'opacity-50 cursor-not-allowed': isSwitching }">
                                     下一个<i class="fas fa-chevron-right ml-2"></i>
                                 </button>
                             </div>
                             
                             <!-- 学习按钮 -->
                             <div v-if="isFlipped" class="mt-6 flex justify-center gap-4 slide-up">
-                                <button @click="handleAnswer(false)" class="px-8 py-3 bg-red-500 text-white rounded-lg hover:bg-red-600 transition-colors">
+                                <button @click="handleAnswer(false)" :disabled="isSwitching" class="px-8 py-3 bg-red-500 text-white rounded-lg hover:bg-red-600 transition-colors" :class="{ 'opacity-50 cursor-not-allowed': isSwitching }">
                                     <i class="fas fa-times mr-2"></i>不认识
                                 </button>
-                                <button @click="markAsMastered" class="px-8 py-3 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors">
+                                <button @click="markAsMastered" :disabled="isSwitching" class="px-8 py-3 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors" :class="{ 'opacity-50 cursor-not-allowed': isSwitching }">
                                     <i class="fas fa-check mr-2"></i>已掌握
                                 </button>
-                                <button @click="handleAnswer(true)" class="px-8 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors">
+                                <button @click="handleAnswer(true)" :disabled="isSwitching" class="px-8 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors" :class="{ 'opacity-50 cursor-not-allowed': isSwitching }">
                                     <i class="fas fa-lightbulb mr-2"></i>认识
                                 </button>
                             </div>
